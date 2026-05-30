@@ -1,0 +1,11 @@
+# cat=scoring/enable/10; type=int+; label=Leg threshold for overtime win (points value that marks a leg as overtime, e.g. 9 in best-of-9)
+overtimeLegThreshold = 9
+
+# cat=scoring/enable/20; type=int+; label=Points awarded for a regular win
+pointsWin = 3
+
+# cat=scoring/enable/30; type=int+; label=Points awarded to the winner of an overtime decider
+pointsOvertimeWin = 2
+
+# cat=scoring/enable/40; type=int+; label=Points awarded to the loser of an overtime decider
+pointsOvertimeLose = 1

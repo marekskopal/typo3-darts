@@ -16,6 +16,11 @@ parameters:
     checkTooWideReturnTypesInProtectedAndPublicMethods: true
     reportAnyTypeWideningInVarTag: true
 
+    ignoreErrors:
+        -
+            identifier: shipmonk.publicPropertyNotReadonly
+            path: Classes/Service/TeamScoreAccumulator.php
+
     shipmonkRules:
         allowComparingOnlyComparableTypes:
             enabled: false
