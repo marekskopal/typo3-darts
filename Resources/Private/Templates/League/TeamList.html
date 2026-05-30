@@ -1,6 +1,6 @@
 <f:layout name="Default" />
 <f:section name="main">
-    <div class="team-list">
+    <div class="msdarts-teamlist">
         <f:if condition="{teamByGroups}">
             <f:for each="{teamByGroups}" as="group">
                 <f:if condition="{group.title}">
@@ -36,24 +36,22 @@
                                             <td>{team.place}</td>
                                             <td>{team.address}</td>
                                             <td class="players-col">
-                                                <div class="players">
-                                                    <ul>
-                                                        <f:for each="{team.players}" as="player">
-                                                            <li>
-                                                                <div class="player">
-                                                                    <div class="player-image">
-                                                                        <f:if condition="{player.imageMain}">
-                                                                            <f:image image="{player.imageMain}" width="50" height="50c" alt="{player.firstName} {player.lastName}" />
-                                                                        </f:if>
-                                                                    </div>
-                                                                    <div class="player-info">
-                                                                        {player.firstName} {player.lastName}<f:if condition="{player.phone}">, {player.phone}</f:if>
-                                                                    </div>
+                                                <ul class="msdarts-players">
+                                                    <f:for each="{team.players}" as="player">
+                                                        <li>
+                                                            <div class="msdarts-player">
+                                                                <div class="msdarts-player__image">
+                                                                    <f:if condition="{player.imageMain}">
+                                                                        <f:image image="{player.imageMain}" width="50" height="50c" alt="{player.firstName} {player.lastName}" />
+                                                                    </f:if>
                                                                 </div>
-                                                            </li>
-                                                        </f:for>
-                                                    </ul>
-                                                </div>
+                                                                <div class="msdarts-player__info">
+                                                                    {player.firstName} {player.lastName}<f:if condition="{player.phone}">, {player.phone}</f:if>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </f:for>
+                                                </ul>
                                             </td>
                                         </f:then>
                                         <f:else>
