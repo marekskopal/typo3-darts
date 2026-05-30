@@ -16,9 +16,6 @@ return [
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
-        'languageField' => 'sys_language_uid',
-        'transOrigPointerField' => 'l10n_parent',
-        'transOrigDiffSourceField' => 'l10n_diffsource',
         'searchFields' => 'title, place, address',
         'iconfile' => 'EXT:ms_darts/Resources/Public/Icons/' . $table . '.svg',
     ],
@@ -117,8 +114,6 @@ return [
             'showitem' => '
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                     title, groups, place, address, login_code, playing_day, players,
-                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
-                    sys_language_uid, l10n_parent, l10n_diffsource,
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
                     hidden
             ',
