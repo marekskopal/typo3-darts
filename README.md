@@ -19,7 +19,7 @@ A darts league plugin for TYPO3 — manage groups, teams, players, and match sco
 ## Requirements
 
 - PHP 8.3+
-- TYPO3 13.4 or 14.x
+- TYPO3 13.4 or 14.3
 
 ## Installation
 
