@@ -7,13 +7,7 @@ use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
 
 defined('TYPO3') or die;
 
-$pluginSignature = ExtensionUtility::registerPlugin(
-    'MsDarts',
-    'DartsScore',
-    'Darts - Score',
-    null,
-    'darts',
-);
+$pluginSignature = ExtensionUtility::registerPlugin('MsDarts', 'DartsScore', 'Darts - Score', null, 'darts');
 ExtensionManagementUtility::addPiFlexFormValue('*', 'FILE:EXT:ms_darts/Configuration/FlexForms/Flexform.xml', $pluginSignature);
 ExtensionManagementUtility::addToAllTCAtypes(
     'tt_content',
@@ -22,13 +16,7 @@ ExtensionManagementUtility::addToAllTCAtypes(
     'after:palette:headers',
 );
 
-$pluginSignature = ExtensionUtility::registerPlugin(
-    'MsDarts',
-    'DartsTeamList',
-    'Darts - Team list',
-    null,
-    'darts',
-);
+$pluginSignature = ExtensionUtility::registerPlugin('MsDarts', 'DartsTeamList', 'Darts - Team list', null, 'darts');
 ExtensionManagementUtility::addPiFlexFormValue('*', 'FILE:EXT:ms_darts/Configuration/FlexForms/Flexform.xml', $pluginSignature);
 ExtensionManagementUtility::addToAllTCAtypes(
     'tt_content',
@@ -37,13 +25,7 @@ ExtensionManagementUtility::addToAllTCAtypes(
     'after:palette:headers',
 );
 
-$pluginSignature = ExtensionUtility::registerPlugin(
-    'MsDarts',
-    'DartsMatchList',
-    'Darts - Match list',
-    null,
-    'darts',
-);
+$pluginSignature = ExtensionUtility::registerPlugin('MsDarts', 'DartsMatchList', 'Darts - Match list', null, 'darts');
 ExtensionManagementUtility::addPiFlexFormValue('*', 'FILE:EXT:ms_darts/Configuration/FlexForms/Flexform.xml', $pluginSignature);
 ExtensionManagementUtility::addToAllTCAtypes(
     'tt_content',

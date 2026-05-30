@@ -12,7 +12,10 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
 /** @extends Repository<Group> */
 class GroupRepository extends Repository
 {
-    /** @var array<string, string> */
+    /**
+     * @phpcsSuppress SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
+     * @var array<non-empty-string, QueryInterface::ORDER_*>
+     */
     protected $defaultOrderings = [
         'sorting' => QueryInterface::ORDER_ASCENDING,
     ];

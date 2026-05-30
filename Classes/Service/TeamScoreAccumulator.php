@@ -33,10 +33,8 @@ final class TeamScoreAccumulator
 
     public int $score = 0;
 
-    public function __construct(
-        private readonly Team $team,
-        private readonly int $teamId,
-    ) {
+    public function __construct(private readonly Team $team, private readonly int $teamId)
+    {
     }
 
     public function toDto(): TeamScoreDto

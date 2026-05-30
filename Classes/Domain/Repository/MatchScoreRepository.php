@@ -12,7 +12,10 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
 /** @extends Repository<MatchScore> */
 class MatchScoreRepository extends Repository
 {
-    /** @var array<string, string> */
+    /**
+     * @phpcsSuppress SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingNativeTypeHint
+     * @var array<non-empty-string, QueryInterface::ORDER_*>
+     */
     protected $defaultOrderings = [
         'round' => QueryInterface::ORDER_ASCENDING,
         'match_date' => QueryInterface::ORDER_ASCENDING,

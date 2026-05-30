@@ -11,10 +11,8 @@ class LoginCodeService
 {
     private const PERMISSION_KEY = 'permission';
 
-    public function __construct(
-        private readonly TeamRepository $teamRepository,
-        private readonly SessionStorage $sessionStorage,
-    ) {
+    public function __construct(private readonly TeamRepository $teamRepository, private readonly SessionStorage $sessionStorage)
+    {
     }
 
     public function authorize(string $code): bool

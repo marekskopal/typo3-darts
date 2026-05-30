@@ -64,10 +64,15 @@ class ScoreCalculator
     /** @param array<int, TeamScoreAccumulator> $accumulators */
     private function applyMatch(array $accumulators, MatchScore $match, ScoringConfig $config): void
     {
+        $matchTeam1 = $match->getTeam1();
+        $matchTeam2 = $match->getTeam2();
+        if ($matchTeam1 === null || $matchTeam2 === null) {
+            return;
+        }
         /** @phpstan-ignore-next-line method.internalClass */
-        $team1Uid = $match->getTeam1()->getUid();
+        $team1Uid = $matchTeam1->getUid();
         /** @phpstan-ignore-next-line method.internalClass */
-        $team2Uid = $match->getTeam2()->getUid();
+        $team2Uid = $matchTeam2->getUid();
         if ($team1Uid === null || $team2Uid === null) {
             return;
         }
@@ -96,26 +101,14 @@ class ScoreCalculator
         if ($match->getPoints1() === $threshold) {
             $team1->loseExt++;
             $team2->winExt++;
-            $this->addOutcomePoints(
-                $match,
-                $team1,
-                $team2,
-                $config->pointsOvertimeLose,
-                $config->pointsOvertimeWin,
-            );
+            $this->addOutcomePoints($match, $team1, $team2, $config->pointsOvertimeLose, $config->pointsOvertimeWin);
             return;
         }
 
         if ($match->getPoints2() === $threshold) {
             $team2->loseExt++;
             $team1->winExt++;
-            $this->addOutcomePoints(
-                $match,
-                $team1,
-                $team2,
-                $config->pointsOvertimeWin,
-                $config->pointsOvertimeLose,
-            );
+            $this->addOutcomePoints($match, $team1, $team2, $config->pointsOvertimeWin, $config->pointsOvertimeLose);
             return;
         }
 

@@ -41,7 +41,7 @@ class ScoringConfigProvider
             return $value;
         }
         if (is_string($value) && $value !== '' && ctype_digit(ltrim($value, '-'))) {
-            return (int)$value;
+            return (int) $value;
         }
         return $default;
     }

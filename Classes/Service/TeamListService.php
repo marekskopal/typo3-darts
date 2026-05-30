@@ -10,10 +10,8 @@ use MarekSkopal\MsDarts\Dto\TeamListGroupDto;
 
 class TeamListService
 {
-    public function __construct(
-        private readonly GroupRepository $groupRepository,
-        private readonly TeamRepository $teamRepository,
-    ) {
+    public function __construct(private readonly GroupRepository $groupRepository, private readonly TeamRepository $teamRepository)
+    {
     }
 
     /** @return list<TeamListGroupDto> */

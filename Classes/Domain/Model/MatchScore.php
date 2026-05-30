@@ -4,17 +4,18 @@ declare(strict_types=1);
 
 namespace MarekSkopal\MsDarts\Domain\Model;
 
+use DateTime;
 use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class MatchScore extends AbstractEntity
 {
     protected int $round = 0;
 
-    protected ?\DateTime $matchDate = null;
+    protected ?DateTime $matchDate = null;
 
-    protected Team $team1;
+    protected ?Team $team1 = null;
 
-    protected Team $team2;
+    protected ?Team $team2 = null;
 
     protected int $leg1 = 0;
 
@@ -35,17 +36,17 @@ class MatchScore extends AbstractEntity
         return $this->round;
     }
 
-    public function getMatchDate(): ?\DateTime
+    public function getMatchDate(): ?DateTime
     {
         return $this->matchDate;
     }
 
-    public function getTeam1(): Team
+    public function getTeam1(): ?Team
     {
         return $this->team1;
     }
 
-    public function getTeam2(): Team
+    public function getTeam2(): ?Team
     {
         return $this->team2;
     }
