@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="EXT:ms_darts/Resources/Private/Language/locallang.xlf">
+        <body>
+            <trans-unit id="score.title">
+                <source>Team title</source>
+                <target>Teamname</target>
+            </trans-unit>
+            <trans-unit id="score.matches">
+                <source>Matches</source>
+                <target>Spiele</target>
+            </trans-unit>
+            <trans-unit id="score.win">
+                <source>Wins</source>
+                <target>Siege</target>
+            </trans-unit>
+            <trans-unit id="score.win_ext">
+                <source>Wins in overtime</source>
+                <target>Siege n.V.</target>
+            </trans-unit>
+            <trans-unit id="score.lose_ext">
+                <source>Losses in overtime</source>
+                <target>Niederlagen n.V.</target>
+            </trans-unit>
+            <trans-unit id="score.lose">
+                <source>Losses</source>
+                <target>Niederlagen</target>
+            </trans-unit>
+            <trans-unit id="score.legs">
+                <source>Legs</source>
+                <target>Legs</target>
+            </trans-unit>
+            <trans-unit id="score.points">
+                <source>Points</source>
+                <target>Punkte</target>
+            </trans-unit>
+            <trans-unit id="score.score">
+                <source>Score</source>
+                <target>Score</target>
+            </trans-unit>
+            <trans-unit id="matchlist.round">
+                <source>Round</source>
+                <target>Runde</target>
+            </trans-unit>
+            <trans-unit id="matchlist.date">
+                <source>Date</source>
+                <target>Datum</target>
+            </trans-unit>
+            <trans-unit id="matchlist.teams">
+                <source>Teams</source>
+                <target>Teams</target>
+            </trans-unit>
+            <trans-unit id="matchlist.legs">
+                <source>Legs</source>
+                <target>Legs</target>
+            </trans-unit>
+            <trans-unit id="matchlist.points">
+                <source>Points</source>
+                <target>Punkte</target>
+            </trans-unit>
+            <trans-unit id="teamlist.title">
+                <source>Team title</source>
+                <target>Teamname</target>
+            </trans-unit>
+            <trans-unit id="teamlist.playing_day">
+                <source>Playing day</source>
+                <target>Spieltag</target>
+            </trans-unit>
+            <trans-unit id="teamlist.place">
+                <source>Place</source>
+                <target>Spielort</target>
+            </trans-unit>
+            <trans-unit id="teamlist.address">
+                <source>Address</source>
+                <target>Adresse</target>
+            </trans-unit>
+            <trans-unit id="teamlist.players">
+                <source>Players</source>
+                <target>Spieler</target>
+            </trans-unit>
+            <trans-unit id="teamlist.show_more">
+                <source>Show more</source>
+                <target>Mehr anzeigen</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.title">
+                <source>Enter code</source>
+                <target>Code eingeben</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.placeholder">
+                <source>Enter code</source>
+                <target>Code eingeben</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.close">
+                <source>Close</source>
+                <target>Schließen</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.submit">
+                <source>Submit</source>
+                <target>Absenden</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

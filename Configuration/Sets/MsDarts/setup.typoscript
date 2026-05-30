@@ -1,0 +1,30 @@
+plugin.tx_msdarts {
+    mvc.callDefaultActionIfActionCantBeResolved = 1
+
+    view {
+        templateRootPaths {
+            0 = EXT:ms_darts/Resources/Private/Templates/
+            1 = {$plugin.tx_msdarts.view.templateRootPath}
+        }
+
+        partialRootPaths {
+            0 = EXT:ms_darts/Resources/Private/Partials/
+            1 = {$plugin.tx_msdarts.view.partialRootPath}
+        }
+
+        layoutRootPaths {
+            0 = EXT:ms_darts/Resources/Private/Layouts/
+            1 = {$plugin.tx_msdarts.view.layoutRootPath}
+        }
+    }
+
+    persistence {
+        storagePid = {$plugin.tx_msdarts.persistence.storagePid}
+        enableAutomaticCacheClearing = 1
+        updateReferenceIndex = 0
+    }
+
+    features {
+        skipDefaultArguments = 1
+    }
+}

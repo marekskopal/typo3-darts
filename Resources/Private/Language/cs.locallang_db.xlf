@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="cs" datatype="plaintext" original="EXT:ms_darts/Resources/Private/Language/locallang_db.xlf">
+        <body>
+            <trans-unit id="tx_msdarts_domain_model_group">
+                <source>Group</source>
+                <target>Skupina</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_group.title">
+                <source>Title</source>
+                <target>Název</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_group.actual">
+                <source>Actual</source>
+                <target>Aktuální</target>
+            </trans-unit>
+
+            <trans-unit id="tx_msdarts_domain_model_matchscore">
+                <source>Match</source>
+                <target>Zápas</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.group">
+                <source>Group</source>
+                <target>Skupina</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.group_no_group">
+                <source>No group</source>
+                <target>Žádná skupina</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.round">
+                <source>Round</source>
+                <target>Kolo</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.match_date">
+                <source>Date</source>
+                <target>Datum</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.team1">
+                <source>Team 1</source>
+                <target>Tým 1</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.team2">
+                <source>Team 2</source>
+                <target>Tým 2</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.leg1">
+                <source>Legs team 1</source>
+                <target>Legy tým 1</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.leg2">
+                <source>Legs team 2</source>
+                <target>Legy tým 2</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.points1">
+                <source>Points team 1</source>
+                <target>Body tým 1</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.points2">
+                <source>Points team 2</source>
+                <target>Body tým 2</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.score_manual">
+                <source>Manual score input</source>
+                <target>Ruční zadání skóre</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.score1">
+                <source>Score team 1</source>
+                <target>Skóre tým 1</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.score2">
+                <source>Score team 2</source>
+                <target>Skóre tým 2</target>
+            </trans-unit>
+
+            <trans-unit id="tx_msdarts_domain_model_player">
+                <source>Player</source>
+                <target>Hráč</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.first_name">
+                <source>First name</source>
+                <target>Jméno</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.last_name">
+                <source>Last name</source>
+                <target>Příjmení</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.phone">
+                <source>Phone</source>
+                <target>Telefon</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.email">
+                <source>Email</source>
+                <target>E-mail</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.image">
+                <source>Photo</source>
+                <target>Fotka</target>
+            </trans-unit>
+
+            <trans-unit id="tx_msdarts_domain_model_team">
+                <source>Team</source>
+                <target>Tým</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.title">
+                <source>Title</source>
+                <target>Název</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.group">
+                <source>Group</source>
+                <target>Skupina</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.place">
+                <source>Place</source>
+                <target>Hrací místo</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.address">
+                <source>Address</source>
+                <target>Adresa</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.login_code">
+                <source>Login code</source>
+                <target>Kód pro přihlášení</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day">
+                <source>Playing day</source>
+                <target>Hrací den</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_monday">
+                <source>Monday</source>
+                <target>Pondělí</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_tuesday">
+                <source>Tuesday</source>
+                <target>Úterý</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_wednesday">
+                <source>Wednesday</source>
+                <target>Středa</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_thursday">
+                <source>Thursday</source>
+                <target>Čtvrtek</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_friday">
+                <source>Friday</source>
+                <target>Pátek</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_saturday">
+                <source>Saturday</source>
+                <target>Sobota</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_sunday">
+                <source>Sunday</source>
+                <target>Neděle</target>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.players">
+                <source>Players</source>
+                <target>Hráči</target>
+            </trans-unit>
+
+            <trans-unit id="sys_file_reference.showinpreview">
+                <source>Show on top</source>
+                <target>Zobrazit nahoře</target>
+            </trans-unit>
+
+            <trans-unit id="flexform.sheet_general">
+                <source>General</source>
+                <target>Hlavní</target>
+            </trans-unit>
+            <trans-unit id="flexform.template_layout">
+                <source>Template layout</source>
+                <target>Rozložení šablon</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="cs" datatype="plaintext" original="EXT:ms_darts/Resources/Private/Language/locallang.xlf">
+        <body>
+            <trans-unit id="score.title">
+                <source>Team title</source>
+                <target>Název týmu</target>
+            </trans-unit>
+            <trans-unit id="score.matches">
+                <source>Matches</source>
+                <target>Zápasy</target>
+            </trans-unit>
+            <trans-unit id="score.win">
+                <source>Wins</source>
+                <target>Výhry</target>
+            </trans-unit>
+            <trans-unit id="score.win_ext">
+                <source>Wins in overtime</source>
+                <target>Výhry v prod.</target>
+            </trans-unit>
+            <trans-unit id="score.lose_ext">
+                <source>Losses in overtime</source>
+                <target>Prohry v prod.</target>
+            </trans-unit>
+            <trans-unit id="score.lose">
+                <source>Losses</source>
+                <target>Prohry</target>
+            </trans-unit>
+            <trans-unit id="score.legs">
+                <source>Legs</source>
+                <target>Legy</target>
+            </trans-unit>
+            <trans-unit id="score.points">
+                <source>Points</source>
+                <target>Body</target>
+            </trans-unit>
+            <trans-unit id="score.score">
+                <source>Score</source>
+                <target>Skóre</target>
+            </trans-unit>
+            <trans-unit id="matchlist.round">
+                <source>Round</source>
+                <target>Kolo</target>
+            </trans-unit>
+            <trans-unit id="matchlist.date">
+                <source>Date</source>
+                <target>Datum</target>
+            </trans-unit>
+            <trans-unit id="matchlist.teams">
+                <source>Teams</source>
+                <target>Týmy</target>
+            </trans-unit>
+            <trans-unit id="matchlist.legs">
+                <source>Legs</source>
+                <target>Legy</target>
+            </trans-unit>
+            <trans-unit id="matchlist.points">
+                <source>Points</source>
+                <target>Body</target>
+            </trans-unit>
+            <trans-unit id="teamlist.title">
+                <source>Team title</source>
+                <target>Název týmu</target>
+            </trans-unit>
+            <trans-unit id="teamlist.playing_day">
+                <source>Playing day</source>
+                <target>Hrací den</target>
+            </trans-unit>
+            <trans-unit id="teamlist.place">
+                <source>Place</source>
+                <target>Hrací místo</target>
+            </trans-unit>
+            <trans-unit id="teamlist.address">
+                <source>Address</source>
+                <target>Adresa</target>
+            </trans-unit>
+            <trans-unit id="teamlist.players">
+                <source>Players</source>
+                <target>Hráči</target>
+            </trans-unit>
+            <trans-unit id="teamlist.show_more">
+                <source>Show more</source>
+                <target>Zobrazit více</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.title">
+                <source>Enter code</source>
+                <target>Zadejte kód</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.placeholder">
+                <source>Enter code</source>
+                <target>Zadejte kód</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.close">
+                <source>Close</source>
+                <target>Zavřít</target>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.submit">
+                <source>Submit</source>
+                <target>Odeslat</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

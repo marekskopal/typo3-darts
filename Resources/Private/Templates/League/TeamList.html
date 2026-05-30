@@ -1,0 +1,91 @@
+<f:layout name="Default" />
+<f:section name="main">
+    <div class="msdarts-teamlist">
+        <f:if condition="{teamByGroups}">
+            <f:for each="{teamByGroups}" as="group">
+                <f:if condition="{group.title}">
+                    <h3>{group.title}</h3>
+                </f:if>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th><f:translate key="teamlist.title" /></th>
+                                <th><f:translate key="teamlist.playing_day" /></th>
+                                <f:if condition="{permission}">
+                                    <f:then>
+                                        <th><f:translate key="teamlist.place" /></th>
+                                        <th><f:translate key="teamlist.address" /></th>
+                                        <th class="players-col"><f:translate key="teamlist.players" /></th>
+                                    </f:then>
+                                    <f:else>
+                                        <th class="players-col"><f:translate key="teamlist.players" /></th>
+                                    </f:else>
+                                </f:if>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <f:for each="{group.teams}" as="team" iteration="i">
+                                <tr>
+                                    <td>{i.cycle}</td>
+                                    <td>{team.title}</td>
+                                    <td><f:translate key="tx_msdarts_domain_model_team.playing_day_{f:if(condition:'{team.playingDay} == 1', then:'monday', else:'')}{f:if(condition:'{team.playingDay} == 2', then:'tuesday', else:'')}{f:if(condition:'{team.playingDay} == 3', then:'wednesday', else:'')}{f:if(condition:'{team.playingDay} == 4', then:'thursday', else:'')}{f:if(condition:'{team.playingDay} == 5', then:'friday', else:'')}{f:if(condition:'{team.playingDay} == 6', then:'saturday', else:'')}{f:if(condition:'{team.playingDay} == 7', then:'sunday', else:'')}" extensionName="MsDarts" /></td>
+                                    <f:if condition="{permission}">
+                                        <f:then>
+                                            <td>{team.place}</td>
+                                            <td>{team.address}</td>
+                                            <td class="players-col">
+                                                <ul class="msdarts-players">
+                                                    <f:for each="{team.players}" as="player">
+                                                        <li>
+                                                            <div class="msdarts-player">
+                                                                <div class="msdarts-player__image">
+                                                                    <f:if condition="{player.imageMain}">
+                                                                        <f:image image="{player.imageMain}" width="50" height="50c" alt="{player.firstName} {player.lastName}" />
+                                                                    </f:if>
+                                                                </div>
+                                                                <div class="msdarts-player__info">
+                                                                    {player.firstName} {player.lastName}<f:if condition="{player.phone}">, {player.phone}</f:if>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </f:for>
+                                                </ul>
+                                            </td>
+                                        </f:then>
+                                        <f:else>
+                                            <td class="players-col">
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#msdartsTeamCodeModal"><f:translate key="teamlist.show_more" /></a>
+                                            </td>
+                                        </f:else>
+                                    </f:if>
+                                </tr>
+                            </f:for>
+                        </tbody>
+                    </table>
+                </div>
+            </f:for>
+        </f:if>
+    </div>
+
+    <div class="modal fade" id="msdartsTeamCodeModal" tabindex="-1" aria-labelledby="msdartsTeamCodeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="msdartsTeamCodeModalLabel"><f:translate key="teamlist.code_modal.title" /></h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <f:form action="processCode" class="form">
+                    <div class="modal-body">
+                        <f:form.textfield class="form-control" name="code" id="msdartsCode" required="1" placeholder="{f:translate(key:'teamlist.code_modal.placeholder')}" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-bs-dismiss="modal"><f:translate key="teamlist.code_modal.close" /></button>
+                        <f:form.button class="btn btn-success"><f:translate key="teamlist.code_modal.submit" /></f:form.button>
+                    </div>
+                </f:form>
+            </div>
+        </div>
+    </div>
+</f:section>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <sheetTitle>LLL:EXT:ms_darts/Resources/Private/Language/locallang_db.xlf:flexform.sheet_general</sheetTitle>
+                <type>array</type>
+                <el>
+                    <settings.templateLayout>
+                        <label>LLL:EXT:ms_darts/Resources/Private/Language/locallang_db.xlf:flexform.template_layout</label>
+                        <config>
+                            <type>select</type>
+                            <itemsProcFunc>MarekSkopal\MsDarts\Hooks\ItemsProcFunc->templateLayout</itemsProcFunc>
+                            <renderType>selectSingle</renderType>
+                            <items>
+                                <numIndex index="0" type="array">
+                                    <label/>
+                                    <value/>
+                                </numIndex>
+                            </items>
+                        </config>
+                    </settings.templateLayout>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

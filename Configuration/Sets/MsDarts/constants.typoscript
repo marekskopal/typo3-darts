@@ -1,0 +1,11 @@
+plugin.tx_msdarts {
+    view {
+        templateRootPath =
+        partialRootPath =
+        layoutRootPath =
+    }
+
+    persistence {
+        storagePid =
+    }
+}

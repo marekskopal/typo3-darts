@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:ms_darts/Resources/Private/Language/locallang.xlf">
+        <body>
+            <trans-unit id="score.title">
+                <source>Team title</source>
+            </trans-unit>
+            <trans-unit id="score.matches">
+                <source>Matches</source>
+            </trans-unit>
+            <trans-unit id="score.win">
+                <source>Wins</source>
+            </trans-unit>
+            <trans-unit id="score.win_ext">
+                <source>Wins in overtime</source>
+            </trans-unit>
+            <trans-unit id="score.lose_ext">
+                <source>Losses in overtime</source>
+            </trans-unit>
+            <trans-unit id="score.lose">
+                <source>Losses</source>
+            </trans-unit>
+            <trans-unit id="score.legs">
+                <source>Legs</source>
+            </trans-unit>
+            <trans-unit id="score.points">
+                <source>Points</source>
+            </trans-unit>
+            <trans-unit id="score.score">
+                <source>Score</source>
+            </trans-unit>
+            <trans-unit id="matchlist.round">
+                <source>Round</source>
+            </trans-unit>
+            <trans-unit id="matchlist.date">
+                <source>Date</source>
+            </trans-unit>
+            <trans-unit id="matchlist.teams">
+                <source>Teams</source>
+            </trans-unit>
+            <trans-unit id="matchlist.legs">
+                <source>Legs</source>
+            </trans-unit>
+            <trans-unit id="matchlist.points">
+                <source>Points</source>
+            </trans-unit>
+            <trans-unit id="teamlist.title">
+                <source>Team title</source>
+            </trans-unit>
+            <trans-unit id="teamlist.playing_day">
+                <source>Playing day</source>
+            </trans-unit>
+            <trans-unit id="teamlist.place">
+                <source>Place</source>
+            </trans-unit>
+            <trans-unit id="teamlist.address">
+                <source>Address</source>
+            </trans-unit>
+            <trans-unit id="teamlist.players">
+                <source>Players</source>
+            </trans-unit>
+            <trans-unit id="teamlist.show_more">
+                <source>Show more</source>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.title">
+                <source>Enter code</source>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.placeholder">
+                <source>Enter code</source>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.close">
+                <source>Close</source>
+            </trans-unit>
+            <trans-unit id="teamlist.code_modal.submit">
+                <source>Submit</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

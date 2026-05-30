@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:ms_darts/Resources/Private/Language/locallang_db.xlf">
+        <body>
+            <trans-unit id="tx_msdarts_domain_model_group">
+                <source>Group</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_group.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_group.actual">
+                <source>Actual</source>
+            </trans-unit>
+
+            <trans-unit id="tx_msdarts_domain_model_matchscore">
+                <source>Match</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.group">
+                <source>Group</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.group_no_group">
+                <source>No group</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.round">
+                <source>Round</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.match_date">
+                <source>Date</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.team1">
+                <source>Team 1</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.team2">
+                <source>Team 2</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.leg1">
+                <source>Legs team 1</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.leg2">
+                <source>Legs team 2</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.points1">
+                <source>Points team 1</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.points2">
+                <source>Points team 2</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.score_manual">
+                <source>Manual score input</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.score1">
+                <source>Score team 1</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_matchscore.score2">
+                <source>Score team 2</source>
+            </trans-unit>
+
+            <trans-unit id="tx_msdarts_domain_model_player">
+                <source>Player</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.first_name">
+                <source>First name</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.last_name">
+                <source>Last name</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.phone">
+                <source>Phone</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.email">
+                <source>Email</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_player.image">
+                <source>Photo</source>
+            </trans-unit>
+
+            <trans-unit id="tx_msdarts_domain_model_team">
+                <source>Team</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.group">
+                <source>Group</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.place">
+                <source>Place</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.address">
+                <source>Address</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.login_code">
+                <source>Login code</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day">
+                <source>Playing day</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_monday">
+                <source>Monday</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_tuesday">
+                <source>Tuesday</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_wednesday">
+                <source>Wednesday</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_thursday">
+                <source>Thursday</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_friday">
+                <source>Friday</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_saturday">
+                <source>Saturday</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.playing_day_sunday">
+                <source>Sunday</source>
+            </trans-unit>
+            <trans-unit id="tx_msdarts_domain_model_team.players">
+                <source>Players</source>
+            </trans-unit>
+
+            <trans-unit id="sys_file_reference.showinpreview">
+                <source>Show on top</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.sheet_general">
+                <source>General</source>
+            </trans-unit>
+            <trans-unit id="flexform.template_layout">
+                <source>Template layout</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
